@@ -8,6 +8,9 @@ return(a+b)
 float restar(float a,float b){
 return a-b;
 }
+float multiplicar(float a,float b){
+return a*b;
+}
 int main()
 {
    float num1,num2,resultado;
