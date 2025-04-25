@@ -12,8 +12,9 @@ return(a+b)
 float restar(float a,float b){
 return a-b;
 }
-cout <<"Ingrese el primer numero"<< end1;
+cout <<"Ingrese el primer numero"<< end2;
 cout>>num1;
+cout<<"ingrese el operdaor"<<end2;
 
 
 
