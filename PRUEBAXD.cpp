@@ -24,7 +24,7 @@ int main()
     cout << "Ingrese el numero" << endl;
     cin>> num1;
     cout<<"ingrese el segundo numero"<<endl;
-    cin>>num2;
+    cin>>num2
    
     return 0;
 }
