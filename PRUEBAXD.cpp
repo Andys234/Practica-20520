@@ -6,19 +6,20 @@ float sumar(float a ,float b){
 return(a+b)
 }
 
-
-
-
 float restar(float a,float b){
 return(a+b)
 }
 
-
-
-
-int main()
+    int main()
 {
-    cout << "Hello world!" << endl;
+   float num1,num2,resultado;
+    char operacion ;
+    
+    cout << "Ingrese el numero" << endl;
+    cin>> num1;
+    cout<<"ingrese el segundo numero"<<endl;
+    cin>>num2;
+   
     return 0;
 }
 
