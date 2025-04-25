@@ -27,7 +27,13 @@ int main()
     num2;
    switch (operacion){
    case'+':
-      resultado=sumar(num1+num2);
+      resultado=sumar(num1,num2);
+      break;
+   case'-':
+      resultado=restar(num1,num2);
+      break;
+   case'*':
+      resultado=multiplicar(num1,num2);
       break;
    
     return 0;
