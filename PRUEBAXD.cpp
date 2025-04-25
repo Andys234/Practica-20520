@@ -25,6 +25,10 @@ int main()
    cin>> operacion;
     cout<<"ingrese el segundo numero"<<endl;
     num2;
+   switch (operacion){
+   case'+':
+      resultado=sumar(num1+num2);
+      break;
    
     return 0;
 }
