@@ -26,7 +26,7 @@ int main()
    cout<<"ingrese un operador"<<endl;
    cin>> operacion;
     cout<<"ingrese el segundo numero"<<endl;
-    cin>>num2;
+    
    
     return 0;
 }
