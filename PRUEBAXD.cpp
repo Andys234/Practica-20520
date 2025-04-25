@@ -17,6 +17,7 @@ return a/b;
       cout<<"Error:no se puede divir entre cero"<<end 
    } 
 }
+
 int main()
 {
    float num1,num2,resultado;
@@ -38,10 +39,16 @@ int main()
    case'*':
       resultado=multiplicar(num1,num2);
       break;
-   
+   case'/':
+      resultado=dividir(num1,num2);
+      break;
+      default:
+         cout<<"operacion no valida"<<endl;
+         return 1;
+   }
+      cout<<"Resultado:"<< resultado <<endl;
     return 0;
 }
-
 
 
 
