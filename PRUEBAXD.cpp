@@ -11,6 +11,12 @@ return a-b;
 float multiplicar(float a,float b){
 return a*b;
 }
+float divicion(float a,float b){
+return a/b;
+   else{
+      cout<<"Error:no se puede divir entre cero"<<end 
+   } 
+}
 int main()
 {
    float num1,num2,resultado;
