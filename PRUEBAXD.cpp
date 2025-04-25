@@ -18,7 +18,16 @@ return(a-b)
 
 int main()
 {
-    cout << "Hello world!" << endl;
+   float num1,num2,resultado;
+    char operacion ;
+    
+    cout << "Ingrese el numero" << endl;
+    cin>> num1;
+   cout<<"ingrese un operador"<<endl;
+   cin>> operacion;
+    cout<<"ingrese el segundo numero"<<endl;
+    cin>>num2;
+   
     return 0;
 }
 
