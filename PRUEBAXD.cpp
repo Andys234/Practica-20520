@@ -10,9 +10,10 @@ return(a+b)
 
 
 float restar(float a,float b){
-return(a-b)
+return a-b;
 }
-
+cout <<"Ingrese el primer numero"<< end1;
+cout>>num1;
 
 
 
